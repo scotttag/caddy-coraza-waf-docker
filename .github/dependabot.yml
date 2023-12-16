@@ -13,3 +13,7 @@ updates:
       - dependency-name: "github.com/corazawaf/coraza/v3"
         dependency-type: "direct"
     target-branch: "main"
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
